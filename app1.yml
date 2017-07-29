@@ -1,0 +1,6 @@
+datasource:
+  driverClass: com.oracle.jdbc.Driver
+  url: jdbc:thin://hostname:port/serviceName
+pool:
+  max: 10
+  min: 2
